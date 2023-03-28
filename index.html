@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LeasingCar</title>
+    <meta name="description" content="LeasingCar is a web service to buy car in way you wan to buy it">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__left">
+                    <a href="/">
+                        <img class="header__logo" src="/img/logo.svg" alt="Logo" title="leasing car logotype">
+                        <img class="header-logomob" src="/img/logomobil.svg" alt="">
+                    </a>
+                    <span class="left__text">
+                        лизинговая компания
+                    </span>
+                </div>
+                <div class="header__right">
+                    <ul class="header__link-list">
+                        <li>
+                            <a class="right__text" href="##">
+                                Лизинг
+                            </a>
+                        </li>
+                        <li>
+                            <a class="right__text" href="##">
+                                Каталог
+                            </a>
+                        </li>
+                        <li>
+                            <a class="right__text" href="##">
+                                О нас
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="button_seconadry button button__hiden" href="#openModal">
+                            Оставить заявку
+                    </a>
+                    <div class="burger">
+                        <a href="#BurgerMenu" class="burger_link">
+                            <img class="header__burger" src="/img/burger.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="leasing">
+        <div class="container">
+            <div class="leasing_content">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper_banner">
+                            <div class="leasing_element">
+                                <div class="leasing_left">
+                                    <h1 class="leasing_head">
+                                        Авто в лизинг для физических лиц 
+                                    </h1>
+                                    <span class="leasing_discription">
+                                        Получите машину за 5 дней
+                                    </span>
+                                    <a href="#openModal" class="button button_primary button_order">
+                                        Оставить заявку
+                                    </a>
+                                </div>
+                                <div class="leasing_right">
+                                    <img class="leasing_image" src="/img/banner_image.png" alt="auto" title="auto in leasing">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper_banner">
+                            <div class="leasing_element">
+                                <div class="leasing_left">
+                                    <span class="leasing_head">
+                                        Авто в лизинг по доступной цене
+                                    </span>
+                                    <span class="leasing_discription">
+                                        Одобряем 97% заявок
+                                    </span>
+                                    <a href="#openModal" class="button button_primary button_order">
+                                        Оставить заявку
+                                    </a>
+                                </div>
+                                <div class="leasing_right">
+                                    <img class="leasing_image" src="/img/banner_image.png" alt="auto" title="auto in leasing">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper_banner">
+                            <div class="leasing_element">
+                                <div class="leasing_left">
+                                    <span class="leasing_head">
+                                        Авто в лизинг в пару кликов
+                                    </span>
+                                    <span class="leasing_discription">
+                                        Станьте 10000 клиентом!
+                                    </span>
+                                    <a href="#openModal" class="button button_primary button_order">
+                                        Оставить заявку
+                                    </a>
+                                </div>
+                                <div class="leasing_right">
+                                    <img class="leasing_image" src="/img/banner_image.png" alt="auto" title="auto in leasing">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper_banner">
+                            <div class="leasing_element">
+                                <div class="leasing_left">
+                                    <span class="leasing_head">
+                                        Авто в лизинг по доступной цене
+                                    </span>
+                                    <span class="leasing_discription">
+                                        Одобряем 97% заявок
+                                    </span>
+                                    <a href="#openModal" class="button button_primary button_order">
+                                        Оставить заявку
+                                    </a>
+                                </div>
+                                <div class="leasing_right">
+                                    <img class="leasing_image" src="/img/banner_image.png" alt="auto" title="auto in leasing">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper_banner">
+                            <div class="leasing_element">
+                                <div class="leasing_left">
+                                    <span class="leasing_head">
+                                        Авто в лизинг в пару кликов
+                                    </span>
+                                    <span class="leasing_discription">
+                                        Станьте 10000 клиентом!
+                                    </span>
+                                    <a href="#openModal" class="button button_primary button_order">
+                                        Оставить заявку
+                                    </a>
+                                </div>
+                                <div class="leasing_right">
+                                    <img class="leasing_image" src="/img/banner_image.png" alt="auto" title="auto in leasing">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev swiper-leasing-prev"></div>
+                    <div class="swiper-button-next swiper-leasing-next"></div>
+                    <div class="swiper-pagination swiper-leasing-pagination"></div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="calculator">
+        <div class="container">
+            <span class="calculator_head">
+                Рассчитайте стоимость автомобиля в лизинг
+            </span>
+            <div class="calculator_content">
+                <form class="calculator_options">
+                    <div class="calculator_element">
+                        <label class="calculator__text" for="car-value">Стоимость автомобиля</label>
+                        <input class="input_calculator input__price" type="number" min="1000000" max="6000000" value="3200000" id="car-value-input" name="car-value-input" onkeypress="updateCarValueInput(this.value)" onchange="updateCarValueInput(this.value)">
+                        <input class="input__line" type="range" min="1000000" max="6000000" value="3200000" id="car-value" name="car-value" oninput="updateCarValueInput(this.value)" onchange="updateCarValueInput(this.value)" >
+                    </div>
+            
+                    <div class="calculator_element">
+                        <label class="calculator__text" for="initial-payment">Первоначальный взнос(от 10 до 60 процентов)</label>
+                        <input class="input_calculator input__price" type="number" min="10" max="60" value="10"id="initial-payment-input" name="initial-payment-input" onkeypress="updateInitallPayment(this.value)" onchange="updateInitallPayment(this.value)">
+                        <input class="input__line" type="range" min="10" max="60" value="10" id="initial-payment" name="initial-payment" oninput="updateInitallPayment(this.value)" onchange="updateInitallPayment(this.value)">
+                    </div>
+                    
+                    <div class="calculator_element">
+                        <label class="calculator__text" for="lease-term">Срок лизинга (месяцев)</label>
+                        <input class="input_calculator input__price" type="number" min="1" max="60" value="12" id="lease-term-input" name="lease-term-input" onkeypress="updateLeasingTerm(this.value)" onchange="updateLeasingTerm(this.value)">
+                        <input class="input__line" type="range" min="1" max="60" value="12" id="lease-term" name="lease-term" onkeypress="updateLeasingTerm(this.value)" onchange="updateLeasingTerm(this.value)">
+                    </div>
+                </form>
+                <div class="calculator_result">                  
+                    <div class="calculator_result_container">
+                        <label class="calculator_result__text" for="lease-contract-amount">Сумма договора лизинга ₽</label>
+                        <input class="calculator_result__input" value="3400000" type="number" id="lease-contract-amount" name="lease-contract-amount" readonly>
+                    </div>
+                    
+                    <div class="calculator_result_container">
+                        <label class="calculator_result__text" for="monthly-payment">Ежемесячный платеж от ₽</label>
+                        <input class="calculator_result__input" value="280000" type="number" id="monthly-payment" name="monthly-payment" readonly>
+                    </div>
+
+                    <button type="button"  class="button button_primary button_lead_submit" onclick="calculate()">
+                        Рассчитать стоимость
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="openModal" class="form modal">
+        <div class="form__content">
+            <div class="form-popup">
+                <form class="form-container">
+                    <span class="form__text">
+                       Онлайн-заявка
+                       <a href="#close" title="Close" class="close">×</a>
+                    </span>
+                    <p class="form__little-text">
+                        Заполните форму, и мы вскоре свяжемся с вами, чтобы ответить на все вопросы
+                    </p>
+                    <div class="form__input_general">
+                        <div class="form__input_container">
+                            <input class="form__input input__name" type="tel" placeholder="Телефон" required>                            
+                        </div>
+
+                        <div class="form__input_container">
+                            <input class="form__input input__name" type="text" placeholder="Имя" required>
+                        </div>
+                    </div>
+                    
+                    <div class="application">
+                        <p class="text__data-processing">
+                            Нажимая на кнопку «Оставить заявку»,  я даю согласие <a class="text__data-link" href="#">на обработку персональных данных</a>
+                        </p>
+                        <button href="/" type="submit" class="button button_primary button_submit">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </form>
+                <div class="form_links">
+                    <a href="tel:99999999" class="form_link">
+                        <img class="form_link_image" src="/img/whatsapp.svg"  alt="whatsapp" title="write car leasing in whatsapp">
+                    </a>
+                    <a href="tel:99999999" class="form_link">
+                        <img class="form_link_image" src="/img/telegram.svg" alt="telegram" title="write car leasing in telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="BurgerMenu" class="burger_menu">
+        <div class="burger_menu_block">
+            <div class="burger_menu_wraper">
+                <a href="#close">
+                    <img class="burger_menu_close" src="/img/close.svg" alt="Close">
+                </a>
+                <ul class="burger_menu_content">
+                    <li class="burger_menu_element">
+                        <a href="#close" class="burger_menu_link">
+                            Лизинг
+                        </a>
+                    </li>
+                    <li class="burger_menu_element">
+                        <a href="#close" class="burger_menu_link">
+                            Каталог
+                        </a>
+                    </li>
+                    <li class="burger_menu_element">
+                        <a href="#close" class="burger_menu_link">
+                            О нас
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="button_primary button burger_button" href="#openModal">
+                Оставить заявку
+            </a>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
